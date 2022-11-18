@@ -3,7 +3,7 @@
 #include<string.h>
 
 int top=-1;
-char sr[20];
+char s[20];
 char infix[20];
 char postfix[20];
 
