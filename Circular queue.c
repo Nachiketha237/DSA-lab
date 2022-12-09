@@ -32,7 +32,7 @@ int rear=-1;
             break;
             case 2:
             dequeue(queue,&front,&rear);
-            printf("\nElement has been removed from the queue.")
+            printf("\nElement has been removed from the queue.");
             break;
             case 3:
             display(queue,&front,&rear);
