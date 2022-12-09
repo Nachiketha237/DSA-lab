@@ -95,7 +95,6 @@ void display(int q[],int *f,int *r)
 {
     int i,temp;
     temp=(*f);
-    // printf("%d ",q[temp]);
     for(i=0;i<count;i++)
     {
         printf("%d ",q[temp]);
