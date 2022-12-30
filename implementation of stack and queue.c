@@ -228,7 +228,7 @@ void display(NODE first)
 
     while(temp!=NULL)
     {
-        printf("%d",temp->value);
+        printf(" %d",temp->value);
         temp=temp->next;
     }
 }
@@ -263,9 +263,9 @@ int main()
                              display(stack);
                              break;
                    
-                   
-                   default:printf("Enter valid choice\n");
-                    break;
+                    case 4:exit(0);
+                    default:printf("Enter valid choice\n");
+                         break;
                    }
                   }
              case 2:while (1)
@@ -286,13 +286,12 @@ int main()
                              display(queue);
                              break;
                    
-                   
+                    case 4:exit(0);
                    default:printf("Enter valid choice\n");
                     break;
                    }
                   }
             case 3:exit(0);
-                   break;
             default:printf("Enter the valid input\n");
         }
     }
